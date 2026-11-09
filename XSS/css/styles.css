@@ -33,24 +33,9 @@ body {
 
 h1, h2, h3 {
     margin: 0 0 14px;
-    color: var(--error-text);
+    color: var(--primary-dark);
     line-height: 1.2;
     font-weight: 700;
-}
-
-h1::after, h2::after, h3::after {
-    display: inline-block;
-    margin-left: 0.5em;
-    padding: 2px 5px;
-    border: 1px solid rgba(169, 61, 51, 0.3);
-    border-radius: 3px;
-    background: var(--error-bg);
-    color: var(--error-text);
-    content: "ERROR HACKED";
-    font-size: 0.58em;
-    font-weight: 700;
-    vertical-align: middle;
-    white-space: nowrap;
 }
 
 h1 {
